@@ -4,7 +4,7 @@
 
 * 递归螺旋：开始我是按下面这样画一圈一循环写的，但后来看示例，因为类似正方形，所以画笔每转一次一循环就可以了~做了修改
 
-**`def draw(turtle, length):**`
+`def draw(turtle, length):`
 
     if length>0:      #边长大于0递归，画到最中心停止
         turtle.forward(length)
